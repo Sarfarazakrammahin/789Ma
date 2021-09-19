@@ -1,0 +1,237 @@
+/* *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap');
+.logo{
+    width: 25%;
+}
+.logo img{
+    width: 45%;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.Navbar{
+    display: flex;
+    background-color: #dfdcd9;
+}
+li{
+    float: left;
+    padding: 20px;
+list-style-type: none;
+
+
+}
+.text{
+    width: 75%;
+}
+.section1{
+background-image: url(./book.jpg);
+padding: 7rem 0rem 20rem 2rem;
+background-size: cover;
+background-position: center center;
+line-height: 3rem;
+}
+.section1 button{
+    background-color: white;
+border: 1px solid black;
+height: 2rem;
+width: 7rem;
+border-radius: 15px;
+
+}
+.flex{
+    display: flex;
+}
+.About{
+    display: flex;
+}
+.text1{
+    width: 45%;
+    margin-left: 5rem;
+}
+.image{
+    width: 55%;
+}
+ .image img{
+     width: 90%;
+     border-radius: 15px;
+ }
+ .section2{
+background-color: #DCDCDC;
+padding: 3rem 0;
+}
+.p{
+    width: 15%;
+    margin-left: 19rem;
+}
+.p h1{
+    font-family: 'Open Sans', sans-serif;
+}
+.p1 h1{
+    font-family: 'Open Sans', sans-serif;
+}
+.p1{
+    width: 15%;
+}
+.p2 h1{
+    font-family: 'Open Sans', sans-serif;
+}
+.p2{
+    width: 15%;
+}
+.p3 h1{
+    font-family: 'Open Sans', sans-serif;
+}
+.p3{
+    width: 15%;
+}
+.section3{
+text-align: center;
+display: flex;
+} */
+/* header{
+    background-color: aqua;
+}
+.color{
+    font-weight: bolder;
+    font-size: 18px;
+}
+.b-color{
+    background-color: rgb(247, 180, 156);
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+}
+.back{
+    background-color: aquamarine;
+}
+.backgr{
+    background-color: rgb(135, 195, 222);
+}
+.white{
+    background-color: white;
+}
+.colorback{
+    background-color: rgb(218, 214, 214);
+} */
+.header{
+    background-color: aquamarine;
+    display: flex;
+}
+li{
+    float: left;
+    list-style-type: none;
+    padding: 20px;
+font-weight: bolder;
+font-size: 19px;
+}
+.logo{
+    width: 20%;
+}
+.logo img{
+    width: 50%;
+}
+.text{
+    width: 60%;
+}
+.button{
+    width: 20%;
+}
+.button button{
+    background-color: rgb(88, 226, 180);
+    height: 2rem;
+    width: 8rem;
+    margin-top: 1rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.color{
+    background-color: rgb(88, 226, 180);
+    height: 2rem;
+    width: 8rem;
+    margin-top: 1rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.hero{
+    display: flex;
+    background-color: coral;
+    padding: 3rem ;
+}
+.hero input{
+    height: 2rem;
+    width: 15rem;
+border: 2px solid black;
+border-radius: 9px;
+margin: 0 1rem 0 0;
+padding-left: 12px;
+padding-bottom: 1px;
+font-weight: bold;
+font-size: 18px;
+}
+.logo1{
+    width: 50%;
+}
+.hero img{
+    border-radius: 10px;
+    width: 90%;
+}
+.text1 h1{
+    font-weight: bold;
+    font-size: 28px;
+}
+.text1{
+    margin-top: 5rem;
+    margin-left: 1rem;
+    width: 50%;
+    margin-right: 3rem;
+}
+.team{
+    display: flex;
+    text-align: center;
+}
+.card1{
+    margin: 3rem ;
+ 
+    width: 23%;
+    border: 2px solid black;
+}
+.size{
+    font-weight: bold;
+    font-size: 28px;
+}
+hr{
+    color: black;
+    font-weight: bold;
+}
+.size1{
+    font-weight: bold;
+    font-size: 23px;
+    padding: 10px 0;
+}
+.card1 i{
+    font-size: 22px;
+    margin: 5px;
+    color: #2E6ABF;
+    cursor: pointer;
+}
+.card1:hover{
+    transform: scale(1.1);
+    transition: all ease .8s;
+  
+}
+.flex img{
+    width: 30%;
+    margin: 1rem .7rem;
+  
+}
+.flex{
+    margin-left: 5rem;
+    
+}
